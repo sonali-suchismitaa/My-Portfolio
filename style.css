@@ -1,24 +1,15 @@
-/* Reset some default styles for better consistency */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* Basic styling for the body */
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: hotpink;
     color: maroon;
-    /* Dark text color */
 }
-
-
-/* Container to center elements and limit width */
 
 .container {
     max-width: 1100px;
@@ -26,21 +17,15 @@ body {
     padding: 0 20px;
 }
 
-
-/* Header styles */
-
 #header {
     background: hotpink;
-    /* Light pink */
     color: #ffffff;
-    /* White text */
     padding: 15px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
 }
 
 #header .container {
@@ -73,11 +58,7 @@ body {
 
 #header nav ul li a:hover {
     color: #c9356c;
-    /* Pink hover color */
 }
-
-
-/* Hero section */
 
 #home {
     padding: 100px 0;
@@ -96,9 +77,6 @@ body {
     line-height: 1.8;
 }
 
-
-/* About section */
-
 #about {
     padding: 80px 0;
     background-color: #fafafa;
@@ -109,7 +87,6 @@ body {
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #c9356c;
-    /* Pink heading color */
 }
 
 .about-content {
@@ -132,7 +109,6 @@ body {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #c9356c;
-    /* Pink heading color */
 }
 
 .skills ul {
@@ -144,21 +120,16 @@ body {
     margin-bottom: 5px;
 }
 
-
-/* Portfolio section */
-
 #portfolio {
     padding: 100px 0;
     text-align: center;
     background-color: #ffffff;
-    /* White background */
 }
 
 #portfolio h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #ff347f;
-    /* Pinkish-red heading color */
 }
 
 .portfolio-items {
@@ -214,9 +185,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ffc107;
-    /* Yellow button */
     color: #343a40;
-    /* Dark text color */
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
@@ -225,18 +194,13 @@ body {
 
 .overlay a.btn:hover {
     background-color: #ff347f;
-    /* Pinkish-red hover color */
     color: #ffffff;
 }
-
-
-/* Contact section */
 
 #contact {
     padding: 80px 0;
     text-align: center;
     background-color: #f48db4;
-    /* Light pink background */
 }
 
 #contact h2 {
@@ -263,7 +227,6 @@ body {
     width: 100%;
     padding: 10px;
     background-color: #c9356c;
-    /* Pink button */
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -273,20 +236,14 @@ body {
 
 .contact-form button:hover {
     background-color: #ff347f;
-    /* Pinkish-red hover color */
 }
-
-
-/* Footer styles */
 
 footer {
     text-align: center;
     padding: 20px 0;
     background-color: hotpink;
-    /* Dark background */
     color: #ffffff;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-bg.jpg') center/cover no-repeat;
-    /* White text */
 }
 
 .social-icons {
@@ -303,5 +260,4 @@ footer {
 
 .social-icons a:hover {
     color: #c9356c;
-    /* Pink hover color */
 }
